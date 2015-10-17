@@ -14,6 +14,7 @@
 		E16425841BD2567C0051DD95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E16425831BD2567C0051DD95 /* Images.xcassets */; };
 		E16425871BD2567C0051DD95 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E16425851BD2567C0051DD95 /* LaunchScreen.xib */; };
 		E16425931BD2567C0051DD95 /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E16425921BD2567C0051DD95 /* DemoTests.m */; };
+		E164259E1BD256D20051DD95 /* Soccer.png in Resources */ = {isa = PBXBuildFile; fileRef = E164259D1BD256D20051DD95 /* Soccer.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		E164258C1BD2567C0051DD95 /* DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16425911BD2567C0051DD95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E16425921BD2567C0051DD95 /* DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTests.m; sourceTree = "<group>"; };
+		E164259D1BD256D20051DD95 /* Soccer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Soccer.png; path = ../../DropBall/DropBall/Soccer.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		E16425751BD2567C0051DD95 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				E164259C1BD256BA0051DD95 /* Photo */,
 				E164257A1BD2567C0051DD95 /* AppDelegate.h */,
 				E164257B1BD2567C0051DD95 /* AppDelegate.m */,
 				E164257D1BD2567C0051DD95 /* ViewController.h */,
@@ -117,6 +120,14 @@
 				E16425911BD2567C0051DD95 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E164259C1BD256BA0051DD95 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				E164259D1BD256D20051DD95 /* Soccer.png */,
+			);
+			name = Photo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E164259E1BD256D20051DD95 /* Soccer.png in Resources */,
 				E16425821BD2567C0051DD95 /* Main.storyboard in Resources */,
 				E16425871BD2567C0051DD95 /* LaunchScreen.xib in Resources */,
 				E16425841BD2567C0051DD95 /* Images.xcassets in Resources */,
